@@ -1,0 +1,10 @@
+# Build output and local config
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+
+# Large binaries (APK and audio samples are kept locally, not in git)
+sample/*.apk
+sample/*.wav
